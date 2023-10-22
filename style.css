@@ -6,10 +6,16 @@
     box-sizing: border-box;
     font-family: 'Poppins', sans-serif;
 }
+html{
+    scroll-behavior: smooth;
+}
 
 body{
     min-height: 100vh;
     overflow-x: hidden;
+}
+body::-webkit-scrollbar{
+    display: none;
 }
 
 header{
